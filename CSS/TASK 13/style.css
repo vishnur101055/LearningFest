@@ -1,0 +1,50 @@
+.container{
+    width: 600px;
+    height: 500px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.row1{
+    width: 600px;
+    height: 100px;
+    display: flex;
+}
+.row2{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+}
+.row3{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+}
+.row4{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.box{
+    width: 140px;
+    height: 100px;
+    border: 2px solid gray;
+    margin-left: 12px;
+    
+}
+.row1 > div{
+    flex: 1;
+}
+.row2 > div{
+    flex: 1;
+}
+.row3 > div{
+    flex: 1;
+}
+.row4 > div{
+    flex: 1;
+}

@@ -1,0 +1,57 @@
+.container{
+    width: 450px;
+    height: 620px;
+    background-color: rgb(226, 226, 128);
+    margin-left: 450px;
+    margin-top: 30px;
+    font-family:  sans-serif;
+    font-weight:600;
+}
+.signup{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.firstname{
+    margin-left: 10px;
+
+}
+.lastname{
+    margin-left: 10px;
+
+}
+.dob{
+    margin-left: 10px;
+
+}
+.email{
+    margin-left: 10px;
+
+}
+.password{
+    margin-left: 10px;
+
+}
+.confirmpassword{
+    margin-left: 10px;
+
+}
+.register{
+    margin-left: 10px;
+
+}
+.inputtxt{
+    width: 420px;
+    height: 30px;
+    background-color:lightgray;
+    border: 0;
+    border-radius: 30px;
+    padding-left :10px ;
+}
+#submittxt{
+    width: 420px;
+    height: 30px;
+    background-color: darkslategrey;
+    border: 0;
+    color: white;
+}

@@ -1,0 +1,5 @@
+h1{
+    color: gray;
+    width:500px ;
+    background-image: linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+}
