@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <body>
+    
+    <label>Enter the amount:</label>
+    <input type="number" id="amount"><br><br>
+    <label>Enter the interest(monthly interest)</label>
+    <input type="number" id="interest"><br><br>
+    <label>Enter the number of months</label>
+    <input type="number" id="months"><br><br>
+    <p id="Emi"></p>
+    <button onclick="emi()" id="button">Submit</button>
+    
+    <script> function emi(){ 
+        let p=Number(document.getElementById("amount").value)
+        let r=Number(document.getElementById("interest").value)
+        let n=Number(document.getElementById("months").value)
+        let interest=Number((p*(r*0.01)/n));
+        let result=Number(((p/n)+ interest).toFixed(2));
+        document.getElementById("Emi").innerHTML="The emi is:"+result;
+    }</script>
+   </body>
+</html>

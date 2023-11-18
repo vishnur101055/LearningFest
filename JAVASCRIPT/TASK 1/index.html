@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="display"></h2>
+    <div>
+        <button type="button" class="btn-roll" onclick="roll()">Roll Dice</button>
+    </div>
+    <script>
+        function roll(){
+            var x=Math.floor(Math.random()*6)+1;
+            document.getElementById("display").innerHTML=x;
+        }
+    </script>
+</body>
+</html>

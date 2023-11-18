@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <label>Enter first number</label>
+    <input type="number" id="num1" placeholder="first number"><br><br>
+    <label>Enter second number</label>
+    <input  type="number" id="num2" placeholder="second number"><br><br>
+    <button onclick="display()">Submit</button>
+    <p id="para1"></p>
+    <p id="para2"></p>
+        <script>
+        function display(){
+        let a=document.getElementById("num1").value;
+        let b=document.getElementById("num2").value;
+        let sum= Number(a)+Number(b);
+
+        document.getElementById("para2").innerHTML="The sum is: "+sum;
+        console.log(sum)
+        }
+    </script>
+</body>
+</html>
